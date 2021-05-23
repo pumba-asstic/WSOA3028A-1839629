@@ -1,29 +1,56 @@
 .menu-top {
     
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #333;
-        position:fixed;
-        top: 0;
-        width: 100%;
-    }
-    
-      
-      li {
-        float: left;
-      }
-      
-      li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-      }
-      
-      li a:hover:not(.active) {
-        background-color: #111;
-      }
-      
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f2cd2f;
+  position:fixed;
+  top: 0;
+  width: 100%;
+}
+.menu-top ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #f2cd2f;
+position: fixed;
+top: 0;
+width: 100%;
+}
+
+.menu-top li {
+  float: left;
+}
+
+.menu-top li a {
+  display: block;
+  color:black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menu-top li a:hover:not(.active) {
+  background-color: #b05227;
+}
+.menu-top .active {
+background-color: #361d09;
+margin: auto;
+}
+h1{
+text-align: center;
+}
+.textstyle{
+  margin: auto;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.blogs{
+  font-size:15px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
+
+}
