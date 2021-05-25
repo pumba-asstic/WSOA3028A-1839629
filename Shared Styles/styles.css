@@ -89,3 +89,20 @@ h2{
 .Images{
   position: center;
 }
+.forms{
+  display: block;
+  color:black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: underline;
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+
+}
+.buttons{
+  text-align: center;
+  color:white;
+  border: 50px;
+  background-color:black;
+}
