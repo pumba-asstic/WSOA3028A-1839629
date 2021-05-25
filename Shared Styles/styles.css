@@ -35,7 +35,7 @@ width: 100%;
 .menu-top li a:hover:not(.active) {
   background-color: #b05227;
 }
-.menu-top .active {
+.active {
 background-color: #361d09;
 margin: auto;
 }
