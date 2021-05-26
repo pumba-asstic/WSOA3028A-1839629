@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The meduim is the message</title>
     <link rel="stylesheet" href="../../Shared Styles/styles.css">
+    <script src="../../Scripts/mapScript.js"></script>
 </head>
 <header>
     <nav class ="menu-top">
@@ -50,16 +51,14 @@ the message is in the medium rather, then the medium is the message. in my under
     <br>
     <h2>References</h2>
 <br>
-
-    <form>
-        <div class="forms">
-          <label for="blogquestion"> Any Question or Input on post ? type her: </label>
-          <input id="blogquestion" type="text" name="text">
+<FORM NAME="myform" ACTION="../../feedbackpage.html" METHOD="GET">
+    Some feedback will be appreciated: <BR>
+        <div class="col-75">
+            <INPUT TYPE="text" NAME="inputbox" VALUE=""textarea id="subject" name="subject" placeholder="some feedback" style="height: 500px;width: 500px;"><P>
+            <INPUT TYPE="button" NAME="button1" Value="Submit" onClick="readText(this.form)"> 
         </div>
-        <div>
-          <input type="submit" value="Send">
-        </div>
-      </form>
+      </div>
+  </FORM>
     </article>
  
 </body>

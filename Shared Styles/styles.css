@@ -39,6 +39,28 @@ width: 100%;
 background-color: #361d09;
 margin: auto;
 }
+
+@media screen and (max-width: 600px) {
+  .menu-top a:not(:first-child) {display: none;}
+  .menu-top a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .menu-top.responsive {position: relative;}
+  .menu-top.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .menu-top.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
 h1{
 text-align: center;
 font-size: 2em;
@@ -105,4 +127,22 @@ h2{
   color:white;
   border: 50px;
   background-color:black;
+}
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }

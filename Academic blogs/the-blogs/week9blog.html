@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digital Divides</title>
     <link rel="stylesheet" href="../../Shared Styles/styles.css">
+    <script src="../../Scripts/mapScript.js"></script>
 </head>
 <header>
 
@@ -53,15 +54,15 @@
     <h2>References</h2>
     Lutz, C., 2019. Digital inequalities in the age of artificial intelligence and big data. Human Behavior and emerging technologies , 1(2), pp. 141 - 148
 <br>
-<form>
-  <div class="forms>
-    <label for="blogquestion"> Any Question or Input on post ? type here: </label>
-    <input id="blogquestion" type="text" name="text">
-  </div>
-  <div>
-    <input type="submit" value="Send">
-  </div>
-</form>
+<FORM NAME="myform" ACTION="../../feedbackpage.html" METHOD="GET">
+  Some feedback will be appreciated: <BR>
+      <div class="col-75">
+          <INPUT TYPE="text" NAME="inputbox" VALUE=""textarea id="subject" name="subject" placeholder="some feedback" style="height: 500px;width: 500px;"><P>
+          <INPUT TYPE="button" NAME="button1" Value="Submit" onClick="readText(this.form)"> 
+      </div>
+    </div>
+</FORM>
+
   </article>
 </body>
 </html>

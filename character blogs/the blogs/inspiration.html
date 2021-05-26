@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>what inspires GuyHeadd</title>
     <link rel="stylesheet" href="../../Shared Styles/styles.css">
+   <SCRIPT src="../../Scripts/mapScript.js"></SCRIPT>
    
 </head>
 <header>
@@ -28,6 +29,7 @@ height="215"
 title="GuyHeadd logo"
 >
 </header>
+
 <br>
 <body>
     
@@ -37,6 +39,35 @@ title="GuyHeadd logo"
     <br>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/6R9cAoCyatA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
    <br> 
-    
+   <FORM NAME="myform" ACTION="../../feedbackpage.html" METHOD="GET">
+    Some feedback will be appreciated: <BR> 
+      <!-- <div class="row"> -->
+        <!-- <div class="col-25"> -->
+          <!-- <label for="subject">Your feedback</label> -->
+        <!-- </div> -->
+        <div class="col-75">
+          <!-- <textarea id="subject" name="subject" placeholder="some feedback" style="height:200px"></textarea> -->
+            <INPUT TYPE="text" NAME="inputbox" VALUE=""textarea id="subject" name="subject" placeholder="some feedback" style="height: 500px;width: 500px;">><P>
+            <INPUT TYPE="button" NAME="button1" Value="Submit" onClick="readText(this.form)"> 
+            <!-- <INPUT TYPE="button" NAME="button2" Value="read" onClick="writeText(this.form)"> -->
+            <INPUT TYPE="button" NAME="button" Value="Check" onClick="testResults(this.form)">
+        </div>
+      </div>
+      <!-- <div class="row"> -->
+        <!-- <input type="submit" value="submit"> -->
+      <!-- </div> -->
+</FORM>
+
+    <!-- <INPUT TYPE="text" NAME="inputbox" VALUE=""><P> -->
+    <!-- <INPUT TYPE="button" NAME="button1" Value="Submit" onClick="readText(this.form)"> -->
+    <!-- <INPUT TYPE="button" NAME="button2" Value="" onClick="writeText(this.form)"> -->
+    <!-- </FORM> -->
+   <!-- <FORM NAME="myform" ACTION="" METHOD="GET">Enter something in the box: <BR> --> 
+    <!-- <INPUT TYPE="text" NAME="inputbox" VALUE=""><P> -->
+    <!-- <INPUT TYPE="button" NAME="button" Value="Click" onClick="testResults(this.form)"> -->
+    <!-- </FORM> -->
 </body>
 </html>
+
+  
+  

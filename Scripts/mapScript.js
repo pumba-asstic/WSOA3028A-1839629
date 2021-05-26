@@ -21,3 +21,18 @@ function initMap() {
     zoom: 8,
   });
 }*/
+function testResults (form) {
+    var TestVar = form.inputbox.value;
+    alert ("You typed: " + TestVar);
+}
+/*function writeText (form) {
+form.inputbox.value = "thank you for the feedback"
+}*/
+function myFunction() {
+    var x = document.getElementById("myMenu-top");
+    if (x.className === "menu-top") {
+      x.className += " responsive";
+    } else {
+      x.className = "menu-top";
+    }
+  }

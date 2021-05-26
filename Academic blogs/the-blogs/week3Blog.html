@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>what is a hypertext</title>
     <link rel="stylesheet" href="../../Shared Styles/styles.css">
+    <script src="../../Scripts/mapScript.js"></script>
 </head>
 <header>
     <nav class ="menu-top">
@@ -58,15 +59,14 @@
     <h2>References</h2>    
      Wardrip-fruin HYPERTEXT '04: Proceedings of the fifteenth ACM conference on Hypertext and hypermediaAugust 2004 Pages 126–127https://doi.org/10.1145/1012807.1012844
 <br>
-     <form>
-        <div class="forms">
-          <label for="blogquestion"> Any Question or Input on post? type here: </label>
-          <input id="blogquestion" type="text" name="text">
+<FORM NAME="myform" ACTION="../../feedbackpage.html" METHOD="GET">
+    Some feedback will be appreciated: <BR>
+        <div class="col-75">
+            <INPUT TYPE="text" NAME="inputbox" VALUE=""textarea id="subject" name="subject" placeholder="some feedback" style="height: 500px;width: 500px;"><P>
+            <INPUT TYPE="button" NAME="button1" Value="Submit" onClick="readText(this.form)"> 
         </div>
-        <div>
-          <input type="submit" value="Send">
-        </div>
-      </form>
+      </div>
+  </FORM>
     </article>
 
 </body>

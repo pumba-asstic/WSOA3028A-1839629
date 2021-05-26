@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Geograohies information </title>
     <link rel="stylesheet" href="../../Shared Styles/styles.css">
+    <script src="../../Scripts/mapScript.js"></script>
 </head>
 
 <header>
@@ -56,15 +57,15 @@
       <h2>References</h2>
       Mark Graham, Stefano De Sabbata , Matthew A Zook, 2015. Towards a study of information geographies: (im) mutable augmentations and a mapping of the geographies of information. In: Geo: Geography and Environment . British : John Willey and Sons Ltd and the Royal Geograpical society , pp. 88 -105 .
 <br>
-      <form>
-        <div class="forms">
-          <label for="blogquestion"> Any Question or Input on post? type here: </label>
-          <input id="blogquestion" type="text" name="text">
-        </div>
-        <div>
-          <input type="submit" value="Send">
-        </div>
-      </form>
+<FORM NAME="myform" ACTION="../../feedbackpage.html" METHOD="GET">
+  Some feedback will be appreciated: <BR>
+      <div class="col-75">
+          <INPUT TYPE="text" NAME="inputbox" VALUE=""textarea id="subject" name="subject" placeholder="some feedback" style="height: 500px;width: 500px;"><P>
+          <INPUT TYPE="button" NAME="button1" Value="Submit" onClick="readText(this.form)"> 
+      </div>
+    </div>
+</FORM>
+
   </article>
 </body>
 </html>

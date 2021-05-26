@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>World wide web</title>
     <link rel="stylesheet" href="../../Shared Styles/styles.css">
+    <script src="../../Scripts/mapScript.js"></script>
 </head>
 
 <hearder>
@@ -68,16 +69,14 @@ it is designed to be simple, and easily produced by both people and programs. th
     <h2>References</h2>
     Berners‐Lee, T., Cailliau, R., Groff, J. and Pollermann, B. (1992), "World‐Wide Web: The Information Universe", Internet Research, Vol. 2 No. 1, pp. 52-58. https://doi.org/10.1108/eb047254 
     <br>
-    <form>
-        <div class="forms">
-          <label for="blogquestion"> Any Question or Input on post? type here: </label>
-          <input id="blogquestion" type="text" name="text">
-        </div>
-        <div>
-          <input type="submit" value="Send">
-        </div>
-      </form>
-
+    <FORM NAME="myform" ACTION="../../feedbackpage.html" METHOD="GET">
+        Some feedback will be appreciated: <BR>
+            <div class="col-75">
+                <INPUT TYPE="text" NAME="inputbox" VALUE=""textarea id="subject" name="subject" placeholder="some feedback" style="height: 500px;width: 500px;"><P>
+                <INPUT TYPE="button" NAME="button1" Value="Submit" onClick="readText(this.form)"> 
+            </div>
+          </div>
+      </FORM>
     </article>
     
 </body>
