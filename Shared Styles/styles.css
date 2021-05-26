@@ -8,6 +8,7 @@
   position:fixed;
   top: 0;
   width: 100%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .menu-top ul {
 list-style-type: none;
@@ -65,22 +66,24 @@ h1{
 text-align: center;
 font-size: 2em;
 color:black;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 h2{
   text-align: center;
   color:white;
   border: 15px;
   background-color: #5e2e13;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .textstyle{
   margin: auto;
   font-size: 15px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
 .blogs{
   font-size:15px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   /*margin: auto;*/
   margin-left: 45px;
   margin-right: 45px;
@@ -96,6 +99,8 @@ h2{
   width: 100%;
   background-color:#f2cd2f;;
   color: black;
+  padding: 5px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .youtube{
   position: auto;
@@ -104,7 +109,7 @@ h2{
 }
 .author-details{
   font-size: 19px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-decoration: underline;
   margin-left: 45px;
 }
@@ -118,7 +123,7 @@ h2{
   padding: 14px 16px;
   text-decoration: underline;
   font-size: 19px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   
 
 }
