@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>User Experience</title>
     <link rel="stylesheet" href="../../Shared Styles/styles.css">
+    <script src="..//../Scripts/mapScript.js"></script>
 </head>
 <header>
     <nav class ="menu-top">
@@ -15,7 +16,7 @@
              <li><a href="../../GuyHeadd/contact-Guyheadd.html">Contact me</a></li>
             <li><a href="../../character blogs/Guyheadd-Blogs-home.html">GuyHeadd blogs</a> </li>
              <li><a href="../wits-blog-homepage.html">Theorical work</a> </li>
-             <li><a href="./Extrawork.html">Extra work</a> </li>
+             <li><a href="./Extrawork.html">Side Works</a> </li>
             </ul>
     </nav>
     <br>
@@ -66,15 +67,15 @@ UX design is important to how your site will be received by the masses.
     <h2>References</h2>
     Marc Hassenzhal , Noam Tractinsky , 2006. User Experience- A research Agenda. Behaviour and Information Technlogy , 25(2), pp. 91-97
     <br>
-    <form>
-        <div class="forms">
-          <label for="blogquestion"> Any Question or Input on post ? type here  </label>
-          <input id="blogquestion" type="text" name="text">
-        </div>
-        <div>
-          <input type="submit" value="Send">
-        </div>
-      </form>
+    <FORM NAME="myform" ACTION="../../feedbackpage.html" METHOD="GET">
+        Some feedback will be appreciated: <BR>
+            <div class="col-75">
+                <INPUT TYPE="text" NAME="inputbox" VALUE=""textarea id="subject" name="subject" placeholder="some feedback" style="height: 500px;width: 500px;"><P>
+                <INPUT TYPE="button" NAME="button1" Value="Submit" onClick="readText(this.form)"> 
+            </div>
+          </div>
+      </FORM>
+      
 </article>
    
 </body>
