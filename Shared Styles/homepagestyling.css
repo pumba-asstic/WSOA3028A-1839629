@@ -1,0 +1,21 @@
+main{
+    background-image: url(../images/Homepage\ image_3.jpg);
+    background-color: darkblue;
+    background-repeat: no-repeat;
+    position: center;
+    background-size: cover;
+    width: 100%;
+
+}
+.words{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #f2cd2f;
+    
+
+
+}
+.heading{
+    font-size: 50px;
+    color:#f2cd2f;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
