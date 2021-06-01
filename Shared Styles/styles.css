@@ -1,5 +1,4 @@
 .menu-top {
-    
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -32,12 +31,11 @@ width: 100%;
   padding: 14px 16px;
   text-decoration: none;
 }
-
 .menu-top li a:hover:not(.active) {
-  background-color: #b05227;
+  background-color: lightyellow;
 }
 .active {
-background-color: #361d09;
+background-color:#b05227 ;
 margin: auto;
 }
 
@@ -85,37 +83,32 @@ h2{
   font-size:15px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   /*margin: auto;*/
-  margin-left: 45px;
-  margin-right: 45px;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin: 15px 15px;
+  padding: 0;
+  border: 0;
   text-align: justify;
 
 }
 .footer{
-  position: static;
+  position: fixed;
   left: 0;
   bottom:0;
   width: 100%;
-  background-color:#f2cd2f;;
-  color: black;
-  padding: 5px;
+  background-color:#f2cd2f;
+  overflow: hidden;
+  padding: 0;
+  border: 0;
+  margin: 0;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.youtube{
-  position: auto;
-  margin-left: 45px;
-  margin-right: 45px;
-}
+
 .author-details{
   font-size: 19px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-decoration: underline;
   margin-left: 45px;
 }
-.Images{
-  position: center;
-}
+
 .forms{
   display: block;
   color:black;
@@ -124,8 +117,6 @@ h2{
   text-decoration: underline;
   font-size: 19px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  
-
 }
 .buttons{
   text-align: center;
@@ -150,4 +141,18 @@ h2{
   content: "";
   display: table;
   clear: both;
+}
+.Main{
+  max-width: 900px;
+  text-align: center;
+  margin: auto;
+  color:black;
+  padding: 0;
+  margin-left: 0;
+  margin-right: 0;
+  border: 0;
+
+}
+.wireframetable{
+
 }
