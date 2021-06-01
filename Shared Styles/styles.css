@@ -32,7 +32,7 @@ width: 100%;
   text-decoration: none;
 }
 .menu-top li a:hover:not(.active) {
-  background-color: lightyellow;
+  background-color: rgb(201, 131, 18);
 }
 .active {
 background-color:#b05227 ;
@@ -153,6 +153,13 @@ h2{
   border: 0;
 
 }
-.wireframetable{
+  table, th, td {
+    border: 5px solid #5e2e13;
+    border-collapse: collapse;
+    width: 60%;
+  }
+  th, td {
+    padding: 5px;
+    text-align: left;
+  }
 
-}
