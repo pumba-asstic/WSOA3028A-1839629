@@ -1,25 +1,22 @@
-main{
+.main-class{
     background-image: url(../images/Homepage\ image_3.jpg);
-    background-color: darkblue;
-    background-repeat: no-repeat;
+    background-color:  #f2cd2f;
     position: center;
-    background-size: cover;
+    background-size:auto;
+    background-repeat: no-repeat;
     width: 100%;
 
 }
 .words{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: black;
-    
-
-
 }
 .heading{
     font-size: 50px;
     color:black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
+
 .SM{
     background-color: #f2cd2f;
-    
 }
