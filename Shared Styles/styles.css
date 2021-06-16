@@ -63,7 +63,7 @@ margin: auto;
 h1{
 text-align: center;
 font-size: 2em;
-color:black;
+color:#361d09 ;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 h2{
@@ -87,7 +87,9 @@ h2{
   padding: 0;
   border: 0;
   text-align: justify;
-
+}
+.blogbackground{
+  background-color: #5e2e13;
 }
 /*.footer{
   position: fixed;

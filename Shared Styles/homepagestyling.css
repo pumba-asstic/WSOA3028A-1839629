@@ -1,22 +1,31 @@
 .main-class{
-    background-image: url(../images/Homepage\ image_3.jpg);
+    background-image: url(../images/Guyheadd\ logo\ for\ website\ .png);
     background-color:  #f2cd2f;
     position: center;
-    background-size:auto;
+    background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
+    width: 100;
 
 }
-.words{
+/*.words{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: black;
 }
 .heading{
     font-size: 50px;
     color:black;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
-}
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    align-content: center;
+}*/
 
-.SM{
+.socialmediaClass{
     background-color: #f2cd2f;
+}
+backgroundthings{
+    background-image: url(../images/Homepage\ image_3.jpg);
+    background-color:  #f2cd2f;
+    position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100;
 }
