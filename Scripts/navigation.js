@@ -1,27 +1,27 @@
-/*const navbar = ["home","about","Contact me","Guyheadd blogs","Theorical work","Side works"]*/
-/*element = document.querySelector();*/
-/*const matches = container.querySelectorAll("li[Home-active=1]","li[About-active=1]","li[Contact-active=1",
-"li[Guyheadd blog-active=1]","li[Theoretical work-active=1]", "li[Side works-active=1]");
-const matches = container.querySelectorAll("li[data-active=1]");*/
-/*const container = document.querySelector("#userlist");*/
+const menuTop=[
+ {title :"Home", link:".index.htm/"},
+ {title :"About", link:".about-Guheadd.html/"},
+ {title :"Contact",link:".contact-Guyheadd.hmtl/"},
+ {title:"Guyheadd blogs", link:".Guyheadd-Blogs-home.html/"},
+ {title:"Theoretical work",link:".wits-blog-homepage.html/"},
+ {title:"Side works",link:"Extrawork.hmtl"},
 
-/*function setup(){
- var navigationbar =[];
- var bar ={};
+]
+window.addEventListener('DOMContentLoaded', (event)=>{
+    console.log('DOM fully loaded and parsed');
+    renderMenu();
+});
 
- bar.home = welcomepage;
- bar.about = about;
- bar.push(bar);
-
-
- return navigationbar;
-
-}
-var temp = setup();
-alert(temp[0].home),*/
-document.getElementById("guyheadd").addEventListener("click",displayDate);
-
-
-function displayDate(){
-    document.getElementById("demo").innerHTML=Date();
-}
+const renderMenu=() =>{
+    const navBar =document.querySelector(".menuTop");
+    
+    menuItems.forEach(item => {
+        const newItem = documen.createElement("li");
+        const newItem = documen.createElement("a");
+        newLink.href = item.links;
+        newLink.text = item.text;
+        newItem.appendchild(newlink);
+        navBar.appendChild(newItem);
+    });
+        
+};
