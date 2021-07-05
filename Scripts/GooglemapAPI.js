@@ -1,4 +1,4 @@
-function initMap(){
+function LoadMap(){
 
 
     var options = {
@@ -7,4 +7,4 @@ function initMap(){
     }
 
     Map = new google.maps.Map(document. getElementById("locationMap"), options)
-}
+};
